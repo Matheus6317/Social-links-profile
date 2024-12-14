@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubot+Sans:ital,wght@0,200..900;1,200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Radley:ital@0;1&family=Rubik+Pixels&display=swap'
+);
+
+body {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 8%);
+    flex-direction: column;
+
+    & .attribution{
+        color: white;
+    }
+}
+
+main {
+    border: 2px solid;
+    max-width: 100%;
+    width: 400px;
+    max-height: 100%;
+    background-color: hsl(0, 0%, 12%);
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    border: none;
+    padding: 30px;
+
+    & img {
+        width: 100px;
+        border-radius: 100px;
+    }
+}
+
+.information {
+    display: grid;
+    gap: 15px;
+
+    & .person {
+        font-size: 1.5em;
+    }
+    & .location {
+        font-size: 1em;
+        color: hsl(75, 94%, 57%);
+    }
+
+}
+
+.container{
+    display: grid;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+.profile{
+    text-decoration: none;
+    border: 2px solid;
+    font-size: 1.25em;
+    width: 300px;
+    padding: 13px;
+    margin-left: 30px;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    & .profile:hover{
+        background-color: hsl(75, 94%, 57%);
+        color: black;
+    }
+}
+
+.profile:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
